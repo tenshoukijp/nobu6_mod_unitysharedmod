@@ -1,0 +1,8 @@
+LIBRARY	"UnitySharedMod"
+SECTIONS
+    .UnitySharedMemory READ WRITE SHARED
+EXPORTS
+    OnInitialize = On_PluginMod_‰Šú‰» @ 1
+    OnFinalize = On_PluginMod_––Šú‰» @ 2
+    OnUnityInitialize = On_Unity_‰Šú‰» @ 3
+    OnUnityFinalize = On_Unity_––Šú‰» @ 4
